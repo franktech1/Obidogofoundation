@@ -205,6 +205,16 @@ nav ul li a:hover {
     background-color: #f8f9fa;
     text-align: center;
 }
+
+
+.contact-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+    
+
+    }
+
 .contact-section h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -254,6 +264,13 @@ nav ul li a:hover {
     color: #6c757d;
     text-decoration: none;
 }
+    .contact-form a{
+
+        text-decoration: none;
+    }
+
+    
+
 .contact-info a:hover {
     text-decoration: underline;
 }
@@ -463,4 +480,40 @@ nav ul.showing {
 .img{
 
     max-width: 200px;
+}
+
+
+/* FAQ styles */
+.faq {
+    margin-bottom: 1rem;
+}
+
+.faq-checkbox {
+    display: none;
+}
+
+.faq-question {
+    cursor: pointer;
+    display: block;
+    padding: 1rem;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+
+.faq-answer {
+    display: none;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin: 0;
+}
+
+/* Show the answer when the checkbox is checked */
+.faq-checkbox:checked + .faq-question + .faq-answer {
+    display: block;
+}
+
+.frank{
+    text-align: center;
 }
